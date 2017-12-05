@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "musicbootcamp",
+    "description": "An empty new project",
+    "slug": "musicbootcamp",
+    "privacy": "public",
+    "sdkVersion": "23.0.0",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "primaryColor": "#cccccc",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+		"bundleIdentifier": "id.harazaki.music",
+		"supportsTablet": true
+	},
+	"android": {
+      "package": "id.harazaki.music",
+      "config": {
+         "googleMaps": {
+            "apiKey": "AIzaSyAYVSCV68-Ka9E6CBDfY6rXlWLmVq4rEVc"
+         }
+      }
+    }
+  }
+}
